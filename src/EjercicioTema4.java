@@ -1,7 +1,7 @@
 public class EjercicioTema4 {
 
     public static void main(String[] args) {
-
+        //if
         int numero = -1;
         if (numero < 0) {
             System.out.println("numero negativo");
@@ -11,22 +11,26 @@ public class EjercicioTema4 {
             System.out.println("igual a cero");
         }
 
+        //while
         int numeroWhile = 0;
         while (numeroWhile < 3) {
             System.out.println("mostrar: " + numeroWhile);
             numeroWhile++;
         }
 
-        numeroWhile = 2;
+        //dowhile
+        numeroWhile = 3;
         do {
             System.out.println("mostrar DoWhile: " + numeroWhile);
             numeroWhile++;
         } while (numeroWhile < 3);
 
+        //for
         for (int numeroFor =0; numeroFor <=3; numeroFor++) {
             System.out.println("mostrar For: " + numeroFor);
         }
 
+        //switch
         var estacion = "LUNES";
         switch (estacion) {
             case "VERANO":
